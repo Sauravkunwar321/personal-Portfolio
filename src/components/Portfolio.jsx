@@ -18,6 +18,7 @@ const portfolios = [
         id:2,
         src:Chat,
         link:`https://github.com/Sauravkunwar321/Gemini-Chatbot`,
+        demo:`https://gemini-chatbot-eight-drab.vercel.app/`
     },
     {
         id:3,
@@ -58,7 +59,7 @@ const portfolios = [
 
         <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
         {
-        portfolios.map(({id, src, link}) => (
+        portfolios.map(({id, src, link, demo}) => (
             
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg hover:scale-105  duration-200">
               <img
@@ -68,7 +69,7 @@ const portfolios = [
               />
               <div className="flex items-center justify-center">
                 <button className="w-0.5 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                 <a href={demo} target="_blank"> Demo</a>
                 </button>
                 <button className="w-0.5 px-6 py-3 m-4 duration-200 hover:scale-105"><a href={link} target="_blank">Code</a>
                   
