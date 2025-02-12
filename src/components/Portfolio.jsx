@@ -23,7 +23,8 @@ const portfolios = [
     {
         id:3,
         src:Bubble,
-        link:`https://github.com/Sauravkunwar321/Bubble-Game`
+        link:`https://github.com/Sauravkunwar321/Bubble-Game`,
+        demo:`https://bubbliegame.netlify.app/`
     },
     {
         id:4,
