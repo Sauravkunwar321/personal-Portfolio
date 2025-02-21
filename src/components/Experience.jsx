@@ -5,7 +5,8 @@ import javascript from "../assets/javascript.png";
 import reactImg from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import github from "../assets/github.png";
-import Cplus from "../assets/C++.png"
+import Cplus from "../assets/C++.png";
+import SQL from "../assets/MYSQL.png";
 
 const Experience = () => {
 
@@ -48,6 +49,12 @@ const techs = [
     },
     {
         id:7,
+        src: SQL,
+        title: 'MySQL',
+        style: 'shadow-orange-300'
+    },
+    {
+        id:8,
         src: github,
         title: 'Github',
         style: 'shadow-gray-400'
