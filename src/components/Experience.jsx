@@ -47,7 +47,7 @@ const techs = [
         style: 'shadow-blue-300'
     },
     {
-        id:6,
+        id:7,
         src: github,
         title: 'Github',
         style: 'shadow-gray-400'
