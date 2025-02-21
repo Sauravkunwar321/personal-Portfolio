@@ -29,19 +29,22 @@ const portfolios = [
     {
         id:4,
         src:Cuberto,
-        link:`https://github.com/Sauravkunwar321/LeetMetrics`
+        link:`https://github.com/Sauravkunwar321/LeetMetrics`,
+        demo:`https://modern-website-six-delta.vercel.app/`
         
     },
     {
         id:5,
         
         src:Leetmetrics,
-        link:`https://github.com/Sauravkunwar321/LeetMetrics`
+        link:`https://github.com/Sauravkunwar321/LeetMetrics`,
+        demo:`https://fluffy-alfajores-e17e69.netlify.app/`
     },
     {
         id:6,
         src:Netflixbase,
-        link:`https://github.com/Sauravkunwar321/Netflix-basic-clone`
+        link:`https://github.com/Sauravkunwar321/Netflix-basic-clone`,
+        demo:`https://aesthetic-kitsune-ffb562.netlify.app/`
     },
 ]
 
