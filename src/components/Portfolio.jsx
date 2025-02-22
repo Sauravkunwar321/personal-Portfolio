@@ -12,39 +12,44 @@ const portfolios = [
     {
         id:1,
         src:Movie,
+        title: "Movieflix",
         link: `https://github.com/Sauravkunwar321/React-Movie-App`,
     },
     {
         id:2,
         src:Chat,
+        title:"Gemini-Chat",
         link:`https://github.com/Sauravkunwar321/Gemini-Chatbot`,
         demo:`https://gemini-chatbot-eight-drab.vercel.app/`
     },
     {
         id:3,
         src:Bubble,
+        title:"Bubble-Game",
         link:`https://github.com/Sauravkunwar321/Bubble-Game`,
         demo:`https://bubbliegame.netlify.app/`
     },
     {
-        id:4,
-        src:Cuberto,
-        link:`https://github.com/Sauravkunwar321/LeetMetrics`,
-        demo:`https://modern-website-six-delta.vercel.app/`
-        
-    },
+      id:4,
+      title:"Notes-MCQ-Generator",
+      src:`https://www.sanatankafle.com.np/images/Ai.gif`,
+      link:`https://github.com/Sauravkunwar321/Notes-MCQ-Generator`,
+      
+  },
     {
         id:5,
+        title:"Used-Mobile-Price-Predictor",
+        src:`https://www.sanatankafle.com.np/images/mior.gif`,
+        link:`https://github.com/Sauravkunwar321/Used_mobile_price_predictor`,
         
-        src:Leetmetrics,
-        link:`https://github.com/Sauravkunwar321/LeetMetrics`,
-        demo:`https://fluffy-alfajores-e17e69.netlify.app/`
+        
     },
     {
         id:6,
-        src:Netflixbase,
-        link:`https://github.com/Sauravkunwar321/Netflix-basic-clone`,
-        demo:`https://aesthetic-kitsune-ffb562.netlify.app/`
+        title:"Leetmetrics",
+        src:Leetmetrics,
+        link:`https://github.com/Sauravkunwar321/LeetMetrics`,
+        demo:`https://fluffy-alfajores-e17e69.netlify.app/`
     },
 ]
 
@@ -63,7 +68,7 @@ const portfolios = [
 
         <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
         {
-        portfolios.map(({id, src, link, demo}) => (
+        portfolios.map(({id, src, link, demo, title}) => (
             
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg hover:scale-105  duration-200">
               <img
@@ -71,13 +76,17 @@ const portfolios = [
                 alt=""
                 className="rounded-md duration-200 hover:scale-105 "
               />
+              <div className="flex flex-col justify-center items-center">
+              <div className="py-1 px-1 ">{title}</div>
               <div className="flex items-center justify-center">
+              
                 <button className="w-0.5 px-6 py-3 m-4 duration-200 hover:scale-105">
                  <a href={demo} target="_blank"> Demo</a>
                 </button>
                 <button className="w-0.5 px-6 py-3 m-4 duration-200 hover:scale-105"><a href={link} target="_blank">Code</a>
                   
                 </button>
+              </div>
               </div>
             </div>
           
