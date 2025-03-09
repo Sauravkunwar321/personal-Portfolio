@@ -5,6 +5,7 @@ import Bubble from "../assets/portfolio/Bubblegame.png";
 import Cuberto from "../assets/portfolio/Cuberto.png";
 import Leetmetrics from "../assets/portfolio/Leetmetrics.png";
 import Netflixbase from "../assets/portfolio/Netflixbase.png";
+import atlas from "../assets/portfolio/atlas.png";
 
 const Portfolio = () => {
 
@@ -16,28 +17,35 @@ const portfolios = [
         link: `https://github.com/Sauravkunwar321/React-Movie-App`,
     },
     {
-        id:2,
+      id:2,
+      src: atlas,
+      title:"World-ATLAS",
+      link:`https://github.com/Sauravkunwar321/World_ATLAS`,
+      demo:`https://startling-stroopwafel-ddafcb.netlify.app/`
+  },
+    {
+        id:3,
         src:Chat,
         title:"Gemini-Chat",
         link:`https://github.com/Sauravkunwar321/Gemini-Chatbot`,
         demo:`https://gemini-chatbot-eight-drab.vercel.app/`
     },
     {
-        id:3,
+        id:4,
         src:Bubble,
         title:"Bubble-Game",
         link:`https://github.com/Sauravkunwar321/Bubble-Game`,
         demo:`https://bubbliegame.netlify.app/`
     },
     {
-      id:4,
+      id:5,
       title:"Notes-MCQ-Generator",
       src:`https://www.sanatankafle.com.np/images/Ai.gif`,
       link:`https://github.com/Sauravkunwar321/Notes-MCQ-Generator`,
       
   },
     {
-        id:5,
+        id:6,
         title:"Used-Mobile-Price-Predictor",
         src:`https://www.sanatankafle.com.np/images/mior.gif`,
         link:`https://github.com/Sauravkunwar321/Used_mobile_price_predictor`,
@@ -45,7 +53,7 @@ const portfolios = [
         
     },
     {
-        id:6,
+        id:7,
         title:"Leetmetrics",
         src:Leetmetrics,
         link:`https://github.com/Sauravkunwar321/LeetMetrics`,
