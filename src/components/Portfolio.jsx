@@ -21,7 +21,7 @@ const portfolios = [
       src: atlas,
       title:"World-ATLAS",
       link:`https://github.com/Sauravkunwar321/World_ATLAS`,
-      demo:`https://startling-stroopwafel-ddafcb.netlify.app/`
+      demo:`https://lucky-semolina-ab7c22.netlify.app/`
   },
     {
         id:3,
