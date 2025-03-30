@@ -7,10 +7,10 @@ import {Link} from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className=' h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 '>
+    <div name="home" className=' h-[60em] w-full bg-gradient-to-b from-black via-black to-gray-800 md:h-screen'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4  md:flex-row'>
             <div className='flex flex-col justify-center h-4 mb-8 mt-25'>
-                <h2 className='text-4xl  sm:text-7xl font-bold text-white'>I'm a Frontend Developer</h2>
+                <h2 className='text-4xl mt-10 sm:text-7xl font-bold text-white'>I'm a Frontend Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                     I am enthusiast to learn more about web development. Currently, I love to work on web application using technologies like Javascript, React, Tailwind, Bootstrap.
                 </p>
@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <img className="h-96 w-76 mt-30 rounded-2xl mx-auto md:w-110 md:h-80 "  src={heroImage2} alt="my profile" />
+                <img className="h-96 w-96 mt-50 rounded-2xl mx-auto md:w-110 md:h-80 "  src={heroImage2} alt="my profile" />
             </div>
         </div>
       
