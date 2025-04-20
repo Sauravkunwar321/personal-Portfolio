@@ -7,6 +7,7 @@ import Cuberto from "../assets/portfolio/Cuberto.png";
 import Leetmetrics from "../assets/portfolio/Leetmetrics.png";
 import Netflixbase from "../assets/portfolio/Netflixbase.png";
 import atlas from "../assets/portfolio/atlas.png";
+import coffeebar from "../assets/portfolio/coffee.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -50,15 +51,23 @@ const Portfolio = () => {
       src: `https://www.sanatankafle.com.np/images/mior.gif`,
       link: `https://github.com/Sauravkunwar321/Used_mobile_price_predictor`,
     },
+    {
+      id: 7,
+      title: "Coffee-Bar",
+      src: coffeebar,
+      link: `https://github.com/Sauravkunwar321/Coffee-Website`,
+      demo:'https://coffee-website-xi-ten.vercel.app/'
+    },
+
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen "
+      className="bg-gradient-to-b from-black to-gray-800 w-full  text-white md:h-screen "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8 pt-40">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
