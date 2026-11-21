@@ -1,8 +1,21 @@
-# React + Vite
+# Saurav Kunwar — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional portfolio built with the Next.js App Router and React. It presents Saurav's full-stack experience, a high-level case study of the Tenant Rental & Screening Platform, technical capabilities, and contact information.
 
-Currently, two official plugins are available:
+## Local development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+## Quality checks
+
+```bash
+npm run lint
+npm run build
+```
+
+The previous Vite application has been replaced by Next.js. No confidential product source or customer data is included in the portfolio case study.
